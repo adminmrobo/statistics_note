@@ -5,7 +5,7 @@
   "updated": "2026-11-09",
   "note": "시리즈 등록부. 같은 개념은 같은 ID를 쓴다. 3장 저장소의 1.1·1.2와 2장 통계적 추정 저장소의 2.1.a~2.9가 함께 씀. v0.4에서 이전 2.1.b(단독 실습판)를 새 2장 전체(2.1.a~2.9)로 교체, 페이지별 site 필드 추가. 2.10 모의고사는 개념을 새로 만들지 않고 2장 ID를 참조. v0.5에서 3장 통계적 가설검정(3.1~3.5, 3.6 모의고사) 추가. 같은 개념(t분포, 양측·단측검정 등)은 2장과 같은 ID를 쓴다.",
   "sites": {
-    "ch03": "https://adminmrobo.github.io/statistics_note_ch03_discrete-probability-distribution/",
+    "ch03": "https://adminmrobo.github.io/statistics_note/ch03/",
     "ch02_estimation": "https://adminmrobo.github.io/statistics_note_ch04_statistical-estimation/",
     "ch03_hypothesis_testing": "https://adminmrobo.github.io/statistics_note_ch05_hypothesis-testing/"
   },
@@ -14,13 +14,13 @@
       "number": "1.1",
       "file": "1-1_discrete_distributions.html",
       "title": "성공과 실패를 세는 일곱 가지 방법 — 이산확률분포",
-      "site": "https://adminmrobo.github.io/statistics_note_ch03_discrete-probability-distribution/"
+      "site": "https://adminmrobo.github.io/statistics_note/ch03/"
     },
     {
       "number": "1.2",
       "file": "1-2_pmf_pdf.html",
       "title": "셀 수 있는 확률, 잴 수밖에 없는 확률 — 확률질량함수·확률밀도함수·균일분포",
-      "site": "https://adminmrobo.github.io/statistics_note_ch03_discrete-probability-distribution/"
+      "site": "https://adminmrobo.github.io/statistics_note/ch03/"
     },
     {
       "number": "2.1.a",
