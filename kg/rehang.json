@@ -1,0 +1,523 @@
+{
+ "version": "1.0",
+ "made": "2026-11-24",
+ "via": "rehang-2026-11-24",
+ "domains": [
+  "stats"
+ ],
+ "note": "분야 뼈대 주제에 다시 걸기(ai-lab-retrofit 15장). links는 자동 후보이며 틀린 줄은 지우면 된다. 빌드 스크립트가 있는 저장소는 빌드 끝에 rehang.apply_overlay()가 이 파일을 적용한다.",
+ "topics": {
+  "lab:topic/anova": {
+   "ko": "분산분석",
+   "en": "Analysis of variance",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/bayes-theorem": {
+   "ko": "베이즈 정리",
+   "en": "Bayes' theorem",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/central-limit-theorem": {
+   "ko": "중심극한정리",
+   "en": "Central limit theorem",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/central-tendency": {
+   "ko": "대표값",
+   "en": "Measures of central tendency",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/chi-square-test": {
+   "ko": "카이제곱 검정",
+   "en": "Chi-square test",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/combinatorics": {
+   "ko": "조합",
+   "en": "Combinatorics",
+   "domain": [
+    "math"
+   ],
+   "level": 2
+  },
+  "lab:topic/conditional-probability": {
+   "ko": "조건부확률",
+   "en": "Conditional probability",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/confidence-interval": {
+   "ko": "신뢰구간",
+   "en": "Confidence interval",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/continuous-distributions": {
+   "ko": "연속분포",
+   "en": "Continuous distributions",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/correlation": {
+   "ko": "상관",
+   "en": "Correlation",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/data-types": {
+   "ko": "자료 종류",
+   "en": "Types of data",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/discrete-distributions": {
+   "ko": "이산분포",
+   "en": "Discrete distributions",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/dispersion": {
+   "ko": "퍼짐",
+   "en": "Measures of dispersion",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/distribution-family-map": {
+   "ko": "분포 사이의 관계",
+   "en": "Relationships among distributions",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/expectation-variance": {
+   "ko": "기댓값·분산",
+   "en": "Expectation and variance",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/independence": {
+   "ko": "독립",
+   "en": "Independence",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/joint-distributions": {
+   "ko": "결합분포",
+   "en": "Joint distributions",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/law-of-large-numbers": {
+   "ko": "대수의 법칙",
+   "en": "Law of large numbers",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/null-alternative": {
+   "ko": "귀무·대립가설",
+   "en": "Null and alternative hypotheses",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/p-value": {
+   "ko": "p값",
+   "en": "p-value",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/probability-rules": {
+   "ko": "확률 규칙",
+   "en": "Rules of probability",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/sampling-distribution-mean": {
+   "ko": "표본평균의 분포",
+   "en": "Sampling distribution of the mean",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/statistical-power": {
+   "ko": "검정력",
+   "en": "Statistical power",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/type-i-ii-errors": {
+   "ko": "오류 두 종류",
+   "en": "Type I and type II errors",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  }
+ },
+ "links": {
+  "lab:assumption/independence": {
+   "topic": "lab:topic/independence",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "관측의 독립"
+  },
+  "lab:concept/alternative": {
+   "topic": "lab:topic/null-alternative",
+   "score": 2,
+   "why": "개념 이름이 주제 이름에 들어 있음",
+   "ko": "대립가설"
+  },
+  "lab:concept/bayes": {
+   "topic": "lab:topic/bayes-theorem",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "베이즈 정리"
+  },
+  "lab:concept/bernoulli-distribution": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "베르누이분포"
+  },
+  "lab:concept/bernoulli-trial": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "베르누이 시행"
+  },
+  "lab:concept/binomial-distribution": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "이항분포"
+  },
+  "lab:concept/cdf": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "누적분포함수"
+  },
+  "lab:concept/combination": {
+   "topic": "lab:topic/combinatorics",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "조합"
+  },
+  "lab:concept/complement-rule": {
+   "topic": "lab:topic/probability-rules",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "여사건"
+  },
+  "lab:concept/conditional-probability": {
+   "topic": "lab:topic/conditional-probability",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "조건부확률"
+  },
+  "lab:concept/confidence-interval": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "신뢰구간"
+  },
+  "lab:concept/continuous-random-variable": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "연속확률변수"
+  },
+  "lab:concept/correlation": {
+   "topic": "lab:topic/correlation",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "상관관계"
+  },
+  "lab:concept/covariance": {
+   "topic": "lab:topic/joint-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "공분산"
+  },
+  "lab:concept/data-types": {
+   "topic": "lab:topic/data-types",
+   "score": 2,
+   "why": "영어 이름 낱말이 모두 겹침",
+   "ko": "자료의 종류"
+  },
+  "lab:concept/discrete-probability-distribution": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "이산확률분포"
+  },
+  "lab:concept/discrete-random-variable": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "이산확률변수"
+  },
+  "lab:concept/expectation": {
+   "topic": "lab:topic/expectation-variance",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "기댓값과 분산"
+  },
+  "lab:concept/expected-value": {
+   "topic": "lab:topic/expectation-variance",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기대값"
+  },
+  "lab:concept/geometric-distribution": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "기하분포"
+  },
+  "lab:concept/hypergeometric-distribution": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "초기하분포"
+  },
+  "lab:concept/independence": {
+   "topic": "lab:topic/independence",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "독립사건"
+  },
+  "lab:concept/law-large-numbers": {
+   "topic": "lab:topic/law-of-large-numbers",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "대수의 법칙"
+  },
+  "lab:concept/median": {
+   "topic": "lab:topic/central-tendency",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "중앙값"
+  },
+  "lab:concept/memorylessness": {
+   "topic": "lab:topic/distribution-family-map",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "무기억성"
+  },
+  "lab:concept/mode": {
+   "topic": "lab:topic/central-tendency",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "최빈값"
+  },
+  "lab:concept/multinomial-distribution": {
+   "topic": "lab:topic/joint-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "다항분포"
+  },
+  "lab:concept/negative-binomial-distribution": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "음이항분포"
+  },
+  "lab:concept/normal-distribution": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "정규분포"
+  },
+  "lab:concept/p-value": {
+   "topic": "lab:topic/p-value",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "p값"
+  },
+  "lab:concept/pdf": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "확률밀도함수"
+  },
+  "lab:concept/pmf": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "확률질량함수"
+  },
+  "lab:concept/poisson-distribution": {
+   "topic": "lab:topic/discrete-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "포아송분포"
+  },
+  "lab:concept/poisson-limit": {
+   "topic": "lab:topic/distribution-family-map",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "이항의 포아송 극한"
+  },
+  "lab:concept/power": {
+   "topic": "lab:topic/statistical-power",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "검정력"
+  },
+  "lab:concept/probability-density": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "밀도"
+  },
+  "lab:concept/probability-distribution": {
+   "topic": "lab:topic/distribution-family-map",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "확률분포"
+  },
+  "lab:concept/proportion-ci": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "비율의 신뢰구간"
+  },
+  "lab:concept/random-variable": {
+   "topic": "lab:topic/expectation-variance",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "확률변수"
+  },
+  "lab:concept/sampling-distribution": {
+   "topic": "lab:topic/sampling-distribution-mean",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "표본평균의 분포"
+  },
+  "lab:concept/skewness": {
+   "topic": "lab:topic/dispersion",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "비대칭도"
+  },
+  "lab:concept/standard-deviation": {
+   "topic": "lab:topic/dispersion",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "표준편차"
+  },
+  "lab:concept/standard-normal-distribution": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "표준정규분포"
+  },
+  "lab:concept/type-errors": {
+   "topic": "lab:topic/type-i-ii-errors",
+   "score": 2,
+   "why": "영어 이름 낱말이 모두 겹침",
+   "ko": "1종·2종 오류"
+  },
+  "lab:concept/uniform-distribution": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "균일분포"
+  },
+  "lab:concept/variance": {
+   "topic": "lab:topic/expectation-variance",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "분산"
+  },
+  "lab:method/anova": {
+   "topic": "lab:topic/anova",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "분산분석"
+  },
+  "lab:method/chi2-var-interval": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "분산의 신뢰구간"
+  },
+  "lab:method/chi2-variance-test": {
+   "topic": "lab:topic/chi-square-test",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "분산의 카이제곱 검정"
+  },
+  "lab:method/t-interval": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "t 신뢰구간"
+  },
+  "lab:method/z-interval": {
+   "topic": "lab:topic/confidence-interval",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "z 신뢰구간"
+  },
+  "lab:theory/central-limit-theorem": {
+   "topic": "lab:topic/central-limit-theorem",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "중심극한정리"
+  }
+ },
+ "retag": {
+  "from": [],
+  "to": [
+   "stats"
+  ]
+ }
+}
